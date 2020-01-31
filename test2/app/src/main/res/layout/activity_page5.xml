@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9BDADF"
+    android:padding="10dp"
+    tools:context=".page5">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Appoinments"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#50BBC4"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:textSize="20dp"
+        android:inputType="number"
+
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pincode"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Explain your problem in brief"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"/>
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20dp"
+        android:background="#50BBC4"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/bck1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textSize="20dp"
+        android:background="#50BBC4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P.S- This appoinment will be valid only after officer-in-charge approves it."
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="bottom"
+        android:layout_marginTop="225dp"/>
+
+
+
+</LinearLayout>
